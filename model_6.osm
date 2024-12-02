@@ -1,0 +1,149 @@
+
+OS:Version,
+  {5ab2d0f5-f496-467d-af2b-9a66da74126a}, !- Handle
+  3.8.0;                                  !- Version Identifier
+
+OS:Space,
+  {5fb3e675-3172-420f-8ab4-c2661c3f467e}, !- Handle
+  Space 1;                                !- Name
+
+OS:Surface,
+  {d42d29f7-5e16-4e63-97f6-c72becceb59c}, !- Handle
+  Surface 1,                              !- Name
+  Floor,                                  !- Surface Type
+  ,                                       !- Construction Name
+  {5fb3e675-3172-420f-8ab4-c2661c3f467e}, !- Space Name
+  Ground,                                 !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0, 0, 0,                                !- X,Y,Z Vertex 1 {m}
+  0, 1, 0,                                !- X,Y,Z Vertex 2 {m}
+  1, 1, 0,                                !- X,Y,Z Vertex 3 {m}
+  1, 2, 0,                                !- X,Y,Z Vertex 4 {m}
+  2, 2, 0,                                !- X,Y,Z Vertex 5 {m}
+  2, 0, 0;                                !- X,Y,Z Vertex 6 {m}
+
+OS:Surface,
+  {8c1b39e9-c39a-4891-bf8c-2fb17e175ca5}, !- Handle
+  Surface 2,                              !- Name
+  Wall,                                   !- Surface Type
+  ,                                       !- Construction Name
+  {5fb3e675-3172-420f-8ab4-c2661c3f467e}, !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0, 0, 3,                                !- X,Y,Z Vertex 1 {m}
+  0, 1, 3,                                !- X,Y,Z Vertex 2 {m}
+  0, 1, 0,                                !- X,Y,Z Vertex 3 {m}
+  0, 0, 0;                                !- X,Y,Z Vertex 4 {m}
+
+OS:Surface,
+  {74928bb2-17f3-4ccb-93c1-a0f9171ffa1f}, !- Handle
+  Surface 3,                              !- Name
+  Wall,                                   !- Surface Type
+  ,                                       !- Construction Name
+  {5fb3e675-3172-420f-8ab4-c2661c3f467e}, !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0, 1, 3,                                !- X,Y,Z Vertex 1 {m}
+  1, 1, 3,                                !- X,Y,Z Vertex 2 {m}
+  1, 1, 0,                                !- X,Y,Z Vertex 3 {m}
+  0, 1, 0;                                !- X,Y,Z Vertex 4 {m}
+
+OS:Surface,
+  {34de89bb-86ec-46d3-af56-049955ae6501}, !- Handle
+  Surface 4,                              !- Name
+  Wall,                                   !- Surface Type
+  ,                                       !- Construction Name
+  {5fb3e675-3172-420f-8ab4-c2661c3f467e}, !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  1, 1, 3,                                !- X,Y,Z Vertex 1 {m}
+  1, 2, 3,                                !- X,Y,Z Vertex 2 {m}
+  1, 2, 0,                                !- X,Y,Z Vertex 3 {m}
+  1, 1, 0;                                !- X,Y,Z Vertex 4 {m}
+
+OS:Surface,
+  {1939045b-dd9b-4e07-a367-018352f9a13f}, !- Handle
+  Surface 5,                              !- Name
+  Wall,                                   !- Surface Type
+  ,                                       !- Construction Name
+  {5fb3e675-3172-420f-8ab4-c2661c3f467e}, !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  1, 2, 3,                                !- X,Y,Z Vertex 1 {m}
+  2, 2, 3,                                !- X,Y,Z Vertex 2 {m}
+  2, 2, 0,                                !- X,Y,Z Vertex 3 {m}
+  1, 2, 0;                                !- X,Y,Z Vertex 4 {m}
+
+OS:Surface,
+  {eddbd5bd-2025-4378-a9c8-20c5e71ecb37}, !- Handle
+  Surface 6,                              !- Name
+  Wall,                                   !- Surface Type
+  ,                                       !- Construction Name
+  {5fb3e675-3172-420f-8ab4-c2661c3f467e}, !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  2, 2, 3,                                !- X,Y,Z Vertex 1 {m}
+  2, 0, 3,                                !- X,Y,Z Vertex 2 {m}
+  2, 0, 0,                                !- X,Y,Z Vertex 3 {m}
+  2, 2, 0;                                !- X,Y,Z Vertex 4 {m}
+
+OS:Surface,
+  {19969245-fad5-43e7-ad02-496e8f923079}, !- Handle
+  Surface 7,                              !- Name
+  Wall,                                   !- Surface Type
+  ,                                       !- Construction Name
+  {5fb3e675-3172-420f-8ab4-c2661c3f467e}, !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  2, 0, 3,                                !- X,Y,Z Vertex 1 {m}
+  0, 0, 3,                                !- X,Y,Z Vertex 2 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
+  2, 0, 0;                                !- X,Y,Z Vertex 4 {m}
+
+OS:Surface,
+  {0690e3af-53c5-43e7-826b-bdc48dff5ea7}, !- Handle
+  Surface 8,                              !- Name
+  RoofCeiling,                            !- Surface Type
+  ,                                       !- Construction Name
+  {5fb3e675-3172-420f-8ab4-c2661c3f467e}, !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  2, 0, 3,                                !- X,Y,Z Vertex 1 {m}
+  2, 2, 3,                                !- X,Y,Z Vertex 2 {m}
+  1, 2, 3,                                !- X,Y,Z Vertex 3 {m}
+  1, 1, 3,                                !- X,Y,Z Vertex 4 {m}
+  0, 1, 3,                                !- X,Y,Z Vertex 5 {m}
+  0, 0, 3;                                !- X,Y,Z Vertex 6 {m}
+
